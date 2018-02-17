@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box!important;
+}
+
+html {
+  height: 100%;
+}
+
+@font-face {
+  src: url(../fonts/Coustard-Regular.ttf);
+  font-family: Coustard;
+}
+
+@font-face {
+  src: url(../fonts/DroidSerif.ttf);
+  font-family: DroidSerif;
+}
+
+body {
+
+  display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+  display: -moz-box;      /* OLD: Firefox (buggy) */
+  display: -ms-flexbox;   /* MID: IE 10 */
+  display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+  display: flex;
+
+  height: 100%;
+  width: 100%; /* For Firefox */
+  align-items: center;
+  justify-content: center;
+
+  font-family: DroidSerif;
+  font-size: 17px;
+  color: #333;
+  line-height: 1.5;
+  background-repeat: repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #16a085;
+}
+
+.home-page {
+  padding: 15px;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.profile-box {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+}
+
+.profile-pic img {
+  width: 130px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-box h1, .profile-box p {
+  font-family: Coustard;
+  font-weight: 500;
+}
+
+.profile-box p {
+  font-size: 19px;
+  color: #878787;
+}
+
+.intro {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.intro p {
+  text-align: left;
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .home-page {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro p {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 640px) {
+  .intro p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-box h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 360px) {
+  .intro p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    height: auto;
+  }
+
+  .links {
+    font-size: 15px;
+  }
+}
+
+.links {
+  font-size: 17px;
+}
+
+.half {
+  width: 50%;
+  position: relative;
+  float: left;
+}
+
+.links:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.links ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.links a {
+  color: #333;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.links a:hover {
+  color: #16a085;
+}
