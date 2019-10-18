@@ -1,2 +1,3 @@
 # ihwanid.github.io
-🚀 Github Pages Repository Redirect To My Domain
+
+Just repository that redirect my github pages domain to [ihwan.id](https://ihwan.id)
