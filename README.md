@@ -1,3 +1,3 @@
 # ihwanid.github.io
 
-repository that redirect my github pages domain to [my web](https://ihwan.id)
+repository that redirect domain to [my web](https://ihwan.id)
